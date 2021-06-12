@@ -8,14 +8,29 @@ h1 {
 .list > li {
   border: 1px solid tomato;
 }
-.social-links .link {
+.social-links .links {
   color: rgb(60, 0, 128);
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
+.social-links .links:hover,
+.social-links .links:focus {
   color: green;
 }
-.social-links .link:active {
+.social-links .links:active {
   color: red;
+}
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+}
+.site-nav .linkss {
+  text-transform: uppercase;
+}
+
+.title {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
 }
