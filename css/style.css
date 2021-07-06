@@ -4,9 +4,11 @@ h1 {
   font-size: 4em;
   font-weight: normal;
 }
-
-.list > li {
-  border: 1px solid tomato;
+img {
+  display: block;
+}
+.list {
+  list-style: none;
 }
 .social-links .links {
   color: rgb(60, 0, 128);
@@ -33,4 +35,29 @@ h1 {
 .title {
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.list-link {
+  outline: 1px solid tomato;
+}
+
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  box-sizing: border-box;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+  background-color: rgba(255, 0, 0, 0.3);
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+.list-link:hover .overlay {
+  transform: translateY(0);
 }
