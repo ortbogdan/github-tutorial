@@ -61,3 +61,13 @@ img {
 .list-link:hover .overlay {
   transform: translateY(0);
 }
+.animation {
+  position: relative;
+  left: 50%;
+  width: 250px;
+  height: 250px;
+  background-color: brown;
+}
+.section {
+  padding-top: 200px;
+}
